@@ -1,0 +1,61 @@
+
+/*MENU */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #464646;
+    margin-top: 1.25rem;
+    margin-bottom: 120px;
+}
+
+.menu__logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #464646;
+}
+
+.menu__navbar{
+    display: flex;
+}
+
+.navbar__item{
+    margin-left: 2.1875rem;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color:  #464646;
+}
+
+
+/* section sobre mi */ 
+
+.sobre__mi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sobre__mi-informacion{
+    width: 50%;
+}
+
+h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.informacion__texto{
+    font-size: 1.5rem;    
+}
+
+.informacion__texto::first-letter{
+    text-transform: capitalize;
+}
+
+.sobre__mi-foto{
+    width: 18.75rem;
+    width: 25%;
+}

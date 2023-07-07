@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portafolio | Heibert Cordoba</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="menu">
+        <a href="index.html" class="menu__logo">
             <img src="img/Logo.svg" alt="">
             <h2>heibert cordoba</h2>
-        </div>
+        </a>
         <nav>
-            <ul class="navbar">
+            <ul class="menu__navbar">
                 <li class="navbar__item"><a href="" class="navbar__link">sobre mi</a></li>
                 <li class="navbar__item"><a href="" class="navbar__link">skills</a></li>
                 <li class="navbar__item"><a href="" class="navbar__link">hobbies</a></li>
@@ -24,5 +24,19 @@
             </ul>
         </nav>
     </header>
+
+    <section class="sobre__mi">
+        <div class="sobre__mi-informacion">
+            <h1>hola, mi nombre es heibert cordoba y me estoy encaminando para convertirme en un desarrollador de software</h1>
+            <p class="informacion__texto">me estoy formando en el SENA en el tecnologo analisis y desarrollo de software,
+                y actualmente estoy participando en el proyecto ONE en Alura Latam </p>
+            <ul>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Curriculo</a></li>
+            </ul>
+        </div>
+        <img class="sobre__mi-foto" src="img/foto.png" alt="foto_heibert_cordoba">
+    </section>
 </body>
 </html>
