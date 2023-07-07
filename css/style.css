@@ -59,3 +59,22 @@ h1{
     width: 18.75rem;
     width: 25%;
 }
+
+.informacion__enlaces{
+    display: flex;
+    margin-top: .9375rem;
+}
+
+.informacion__item{
+    margin-right: 2.5rem;
+}
+
+.informacion__link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+
