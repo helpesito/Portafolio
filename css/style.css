@@ -16,12 +16,26 @@ header{
     color: #464646;
 }
 
+.texto__logo{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
 .menu__navbar{
     display: flex;
+    text-align: center;
 }
 
 .navbar__item{
-    margin-left: 2.1875rem;
+    text-transform: capitalize;
+    padding: 8px 20px;
+}
+
+.navbar__item:hover{
+    border-radius: .3125rem;
+    background-color: #a1a1a18f;
+    transform: scale(1.2);
+    transition: .3s;
 }
 
 .navbar__link{
@@ -60,6 +74,11 @@ h1{
 .presentacion-foto{
     width: 18.75rem;
     width: 25%;
+}
+
+.presentacion-foto:hover{
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 .informacion__enlaces{
@@ -128,3 +147,48 @@ h1{
     width: 12%;
     margin-left: 7.8125rem;
 }
+
+/* section skills y hobbies */
+
+.skillsyhobbies{
+    display: flex;
+    flex-direction: column;
+    background-color: #aee0cd;
+    background-image: linear-gradient(180deg, #aee0cd 0%, #949895 46%, #ffffff 100%);
+    
+}
+
+.skillsyhobbies__titulo{
+    text-align: center;
+    margin-top: 6.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 2.8125rem; 
+    text-decoration: underline;
+}
+
+.skillsyhobbies__lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skillsyhobbies_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 2rem;
+}
+
+.skillyhobbies__name{
+    margin-top: .5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.skillsyhobbies__image:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
