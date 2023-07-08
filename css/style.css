@@ -154,8 +154,7 @@ h1{
     display: flex;
     flex-direction: column;
     background-color: #aee0cd;
-    background-image: linear-gradient(180deg, #aee0cd 0%, #949895 46%, #ffffff 100%);
-    
+    background-image: linear-gradient(180deg, #aee0cd 0%, #949895 100%);
 }
 
 .skillsyhobbies__titulo{
@@ -168,16 +167,14 @@ h1{
 
 .skillsyhobbies__lista{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .skillsyhobbies_item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 20%;
-    margin: 2rem;
+    text-align: center;
+    margin: 1rem 4.5rem 2rem 4.5rem;
+    flex: 1;
 }
 
 .skillyhobbies__name{
@@ -189,6 +186,54 @@ h1{
 .skillsyhobbies__image:hover{
     transform: scale(1.1);
     transition: .3s;
+}
+
+/* section formacion profesional */
+
+.formacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #949895;
+    background-image: linear-gradient(180deg, #949895 0%, #ffffff 100%);
+}
+
+.formacion__titulo{
+    margin-top: 6.5rem;
+    font-size: 2.8125rem;
+    text-decoration: underline;
+    margin-bottom: 3.5rem;
+}
+
+.formacion__lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formacion__item{
+    text-align: center;
+    margin: 0 3rem 0 3rem;
+    flex: 1;
+}
+
+.formacion_imagen-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.formacion__imagen{
+    width: 16rem;
+    height: 9rem;
+    margin: 1rem;
+}
+
+.formacion__imagen.tamaño{
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
 }
 
 
