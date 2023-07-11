@@ -9,25 +9,24 @@
     <title>Portafolio | Heibert Cordoba</title>
 </head>
 <body>
-    <header class="menu">
+    <header class="menu" id="inicio">
         <a href="index.html" class="menu__logo">
             <img src="img/Logo.svg" alt="">
             <h2 class="texto__logo">heibert cordoba</h2>
         </a>
         <nav>
             <ul class="menu__navbar">
-                <li class="navbar__item"><a href="" class="navbar__link">sobre mi</a></li>
-                <li class="navbar__item"><a href="" class="navbar__link">skills</a></li>
-                <li class="navbar__item"><a href="" class="navbar__link">hobbies</a></li>
-                <li class="navbar__item"><a href="" class="navbar__link">formacion</a></li>
-                <li class="navbar__item"><a href="" class="navbar__link">proyectos</a></li>
-                <li class="navbar__item"><a href="mailto:heibert728@gmail.com" class="navbar__link">heibert728@gmail.com</a></li>
+                <li class="navbar__item"><a href="#sobre__mi" class="navbar__link">sobre mi</a></li>
+                <li class="navbar__item"><a href="#skills&hobbies" class="navbar__link">skills&hobbies</a></li>
+                <li class="navbar__item"><a href="#formacion" class="navbar__link">formacion</a></li>
+                <li class="navbar__item"><a href="#proyectos" class="navbar__link">proyectos</a></li>
+                <li class="navbar__item"><a href="#contacto" class="navbar__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="presentacion">
+        <section class="presentacion" id="presentacion">
             <div class="presentacion-informacion">
                 <h1>hola, mi nombre es heibert cordoba y me estoy encaminando para convertirme en un desarrollador de software</h1>
                 <p class="informacion__texto"> tengo 20 años, soy colombiano y me estoy formando en el SENA en el tecnologo analisis y desarrollo de software,
@@ -53,7 +52,7 @@
             <img class="presentacion-foto" src="img/foto.png" alt="foto_heibert_cordoba">
         </section>
 
-        <section class="sobre__mi">
+        <section class="sobre__mi" id="sobre__mi">
             <h2 class="sobre__mi-titulo">sobre mi</h2>
             <p class="sobre__mi-parrafo">Desde que descubrí mi fascinación por la tecnología durante mis años de bachillerato,
             he estado inmerso en el apasionante mundo de la programación y el desarrollo de software. Siento un gran entusiasmo por las posibilidades que la tecnología ofrece y estoy constantemente
@@ -68,7 +67,7 @@
             <img src="img/firma.png" alt="" class="sobre__mi-firma">
         </section>
 
-        <section class="skillsyhobbies">
+        <section class="skillsyhobbies" id="skills&hobbies">
             <div class="skills">
                 <h2 class="skillsyhobbies__titulo">Skills</h2>
                 <ul class="skillsyhobbies__lista">
@@ -117,7 +116,7 @@
             </div>
         </section>
 
-        <section class="formacion">
+        <section class="formacion" id="formacion">
             <h2 class="formacion__titulo">formacion profesional</h2>
             <ul class="formacion__lista">
                 <li class="formacion__item">
@@ -144,7 +143,7 @@
             </ul>
         </section>
 
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <h2 class="proyecto__titulo">proyectos</h2>
             <div class="proyecto__contain">
                 <img src="img/image_proyecto-encryptador.PNG" alt="imagen proyecto encryptador" 
@@ -217,7 +216,7 @@
         </section>
     </main>
 
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <img src="img/contact_image.png" alt="" class="contacto__image">
         <div class="contacto__formulario">
             <h2 class="contacto__titulo">Contacto</h2>
@@ -232,8 +231,20 @@
     </section>
 
     <footer>
-        <p>desarrollador por heibert cordoba</p>
-        <p>2023©</p>
+        <div class="footer_info">
+            <p>desarrollado por heibert cordoba</p>
+            <p>2023©</p>
+        </div>
+        <nav class="lista">
+            <ul class="menu__navbar footer">
+                <li class="navbar__item"><a href="#" class="navbar__link footer">Inicio</a></li>
+                <li class="navbar__item"><a href="#sobre__mi" class="navbar__link footer">sobre mi</a></li>
+                <li class="navbar__item"><a href="#skills&hobbies" class="navbar__link footer">skills&hobbies</a></li>
+                <li class="navbar__item"><a href="#formacion" class="navbar__link footer">formacion</a></li>
+                <li class="navbar__item"><a href="#proyectos" class="navbar__link footer">proyectos</a></li>
+                <li class="navbar__item"><a href="#contacto" class="navbar__link footer">Contacto</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
