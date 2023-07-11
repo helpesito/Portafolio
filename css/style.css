@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Permanent+Marker&display=swap');
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 /*MENU */
 header{
     display: flex;
@@ -104,7 +108,6 @@ h1{
     background-image: linear-gradient(180deg, #dad5c1 0%, #aee0cd 100%);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .sobre__mi-titulo{
@@ -236,4 +239,62 @@ h1{
     margin: 1rem;
 }
 
+/* section proyectos*/
 
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyecto__titulo{
+    margin-top: 6.5rem;
+    font-size: 2.8125rem;
+    text-decoration: underline;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.proyecto__contain{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.5rem;
+
+}
+
+.proyecto__contain-image{
+    width: 45rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 3.5rem 0 3.5rem;
+}
+
+.proyecto__contain-image:hover{
+    transition: .5s;
+    transform: scale(1.5);
+    -webkit-box-shadow: 14px 18px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 18px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 18px 5px 0px rgba(0,0,0,0.75);
+}
+
+.proyecto__contain-titulo{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.proyecto__contain-titulo,.proyecto__contain-texto{
+    margin-bottom: 1rem;
+}
+
+.proyecto__boton{
+    border-radius: 7px;
+    font-size: 1.2em;
+    color: rgb(141, 218, 218);
+    padding: .5em;
+    background-color: rgb(77, 78, 72);
+}
+
+.proyecto__boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
