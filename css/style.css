@@ -280,6 +280,10 @@ header {
     font-weight: 600;
 }
 
+.proyectos__description{
+    text-align: center;
+}
+
 .proyecto__contain-titulo,.proyecto__contain-texto {
     margin-bottom: 1rem;
 }
