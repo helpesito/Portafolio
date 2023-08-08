@@ -38,12 +38,8 @@
     }
     .proyecto__contain{
         flex-direction: column;
-    }
-
-    .proyecto__contain{
         margin-bottom: 5rem;
     }
-
     
     .derecha:nth-child(2) {
         order: -1;
