@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
 }
 /* MENU */
 header {
@@ -62,8 +63,8 @@ header {
     width: 50%;
 }
 
-h1 {
-    font-size: 3.5rem;
+.presentacion__main {
+    font-size: 3.5em;
     text-transform: capitalize;
 }
 
@@ -148,22 +149,20 @@ h1 {
 .sobre__mi-firma {
     width: 12%;
     margin-left: 7.8125rem;
+    margin-bottom: 7rem;
 }
 
 /* section skills y hobbies */
 
 .skillsyhobbies { 
-    display: flex;
     flex-direction: column;
     background-color: #aee0cd;
     background-image: linear-gradient(180deg, #aee0cd 0%, #949895 100%);
-    height: 100vh;
 }
 
 .skillsyhobbies__titulo {
     text-align: center;
-    margin-top: 6.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 5.5rem;
     font-size: 2.8125rem; 
     text-decoration: underline;
 }
@@ -176,7 +175,7 @@ h1 {
 
 .skillsyhobbies_item {
     text-align: center;
-    margin: 1rem 4.5rem 2rem 4.5rem;
+    margin: 1rem 4.5rem 6rem 4.5rem;
     flex: 1;
 }
 
@@ -199,14 +198,14 @@ h1 {
     flex-direction: column;
     background-color: #949895;
     background-image: linear-gradient(180deg, #949895 0%, #ffffff 100%);
-    height: 100vh;
 }
 
 .formacion__titulo {
-    margin-top: 6.5rem;
     font-size: 2.8125rem;
     text-decoration: underline;
     margin-bottom: 3.5rem;
+    text-align: center;
+    margin-top: 6.5rem;
 }
 
 .formacion__lista {
@@ -242,13 +241,14 @@ h1 {
 
 /* section proyectos */
 
-.proyectos {
+.proyectos{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .proyecto__titulo {
+    margin-top: 6.5rem;
     font-size: 2.8125rem;
     text-decoration: underline;
     margin-bottom: 3.5rem;
@@ -259,7 +259,6 @@ h1 {
     display: flex;
     align-items: center;
     margin-bottom: 6.5rem;
-
 }
 
 .proyecto__contain-image {
@@ -300,11 +299,11 @@ h1 {
 }
 
 /* Contacto */
-.contacto {
+/* .contacto {
     width: 80%;
     margin: 0 auto;
-    /* background-color: #aee0cd; */
-    /* border: .0625rem solid gray; */
+    background-color: #aee0cd;
+    border: .0625rem solid gray;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -353,7 +352,7 @@ h1 {
 
 .contacto__formulario>input {
     padding: 1rem;
-}
+} */
 
 /* footer */ 
 footer {
@@ -372,3 +371,4 @@ footer {
 .navbar__link.footer{
     color: black;
 }
+
