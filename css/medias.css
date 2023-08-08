@@ -1,4 +1,5 @@
 @media screen and (max-width:1100px){
+
         .presentacion__main{
             font-size: 1.5rem;
         }
@@ -12,9 +13,16 @@
             margin-bottom: 9.5rem;
         }
 
+        .sobre__mi-parrafo{
+            flex-direction: column;
+        }
+
         .contacto__nav{
         display: block;
-        font-size: 1.5rem;
+        }
+
+        .texto__logo{
+            font-size: 1rem;
         }
 
         .proyecto__contain{
@@ -34,8 +42,8 @@
 
 @media screen and (max-width:768px){
 
-    .presentacion__main{
-        font-size: 1.5rem;
+    .presentacion__main,.informacion__texto{
+        font-size: 1rem;
     }
     .proyecto__contain{
         flex-direction: column;
