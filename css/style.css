@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
 }
 /* MENU */
 header {
@@ -277,10 +278,6 @@ header {
 .proyecto__contain-titulo {
     font-size: 2.5rem;
     font-weight: 600;
-}
-
-.proyectos__description{
-    text-align: center;
 }
 
 .proyecto__contain-titulo,.proyecto__contain-texto {

@@ -6,6 +6,11 @@
         .navbar__item{
         display: none;
         }
+        
+        .informacion__enlaces {
+            flex-wrap: wrap;
+            margin-bottom: 9.5rem;
+        }
 
         .contacto__nav{
         display: block;
@@ -23,6 +28,7 @@
             transition: .5s;
             transform: scale(1);
         }
+
 }
 
 
